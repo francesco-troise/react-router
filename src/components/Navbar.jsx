@@ -7,18 +7,18 @@ export default function Navbar() {
       <div className="container-fluid d-flex  ">
         <ul className="navbar-nav flex-row gap-3 ">
           <li className="nav-item">
-            <NavLink className="nav-link" to="#">
+            <NavLink className="nav-link" to="/">
               Homepage
             </NavLink>
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="#">
+            <NavLink className="nav-link" to="/AboutUs">
               About us
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="#">
+            <NavLink className="nav-link" to="/products">
               Prodotti
             </NavLink>
           </li>
